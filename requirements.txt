@@ -1,0 +1,14 @@
+# Creates your API (The back end server)
+fastapi
+
+# Runs your FastAPI app
+uvicron
+
+# Connects Python ---> PostgreSQL database
+psycopg[binary]
+
+# Loads enviorment variables from .env
+python-dotenv
+
+# Calls external API's (like stock data)
+requests
